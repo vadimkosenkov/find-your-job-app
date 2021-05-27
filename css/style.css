@@ -1,9 +1,30 @@
+*,
+*:before,
+*after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
     color: #111238;
     margin: 0;
 }
+
+.button {
+    color: #111238;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+}
+
+.header {
+    background: #F2F3F6
+}
+
+
+/* __header_first row__ */
 
 .menu {
     list-style: none;
@@ -15,12 +36,6 @@ body {
     margin-right: 20px;
 }
 
-.button {
-    color: #111238;
-    text-decoration: none;
-    display: inline-block;
-}
-
 .button_link {
     padding: 10px;
     margin-right: 30px;
@@ -30,5 +45,101 @@ body {
     background: #1A75E8;
     border-radius: 5px;
     color: #fff;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 30px;
+}
+
+
+/* __header_second row__ */
+
+.hero_title {
+    font-size: 44px;
+    line-height: 53px;
+    margin: 43px 0 15px 0;
+}
+
+.hero_text {
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+.input_group {
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.input {
+    border: none;
+    background: #fff;
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 15px;
+}
+
+.input:focus {
+    outline: 1px dotted rgba(128, 128, 128, 0.2);
+}
+
+.search_icon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.button_text {
+    vertical-align: middle;
+}
+
+.tags_group {
+    padding-left: 15px;
+    color: #B2B2B2;
+    font-size: 14px;
+}
+
+.tag {
+    font-size: 14px;
+    color: #B2B2B2;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+}
+
+
+/* __section__ */
+
+.section {
+    padding: 70px 0 80px 0;
+}
+
+.section_title {
+    margin: 0 0 40px 0;
+}
+
+.card {
+    color: #111238;
+    background: #f2f3f6;
+    border-radius: 10px;
+    padding: 35px;
+    transition: .2s linear;
+}
+
+.card:hover {
+    background: #1a75e8;
+    color: #fff;
+}
+
+.card:hover .card_icon {
+    fill: #fff;
+}
+
+.card_icon {
+    height: 24px;
+    width: 24px;
+    fill: #111238;
+    margin-bottom: 15px;
+    transition: .2s linear;
 }
