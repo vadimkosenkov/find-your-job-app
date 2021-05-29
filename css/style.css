@@ -46,6 +46,12 @@ body {
     border-radius: 5px;
     color: #fff;
     padding: 15px 30px;
+    transition: .2s linear
+}
+
+.button_primary:hover {
+    transform: scale(0.95);
+    cursor: pointer;
 }
 
 
@@ -188,6 +194,11 @@ body {
     line-height: 17px;
     color: #1a75e8;
     margin-left: auto;
+    transition: .2s linear;
+}
+
+.offer_details:hover {
+    transform: scale(0.95)
 }
 
 .more_vacancy {
