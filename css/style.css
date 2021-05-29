@@ -109,7 +109,7 @@ body {
 }
 
 
-/* __section__ */
+/* __section cards__ */
 
 .section {
     padding: 70px 0 80px 0;
@@ -142,4 +142,115 @@ body {
     fill: #111238;
     margin-bottom: 15px;
     transition: .2s linear;
+}
+
+
+/* __section offers__ */
+
+.offer {
+    border: 1px solid #c5c9d5;
+    border-radius: 10px;
+    padding: 30px 55px 30px 30px;
+    margin-bottom: 20px;
+}
+
+.company_logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #f2f3f6;
+    background: url('../img/company_logo.png') no-repeat center / contain;
+    margin-right: 20px;
+}
+
+.offer_title {
+    margin-right: 46px;
+}
+
+.offer_vacancy {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 10px 0;
+}
+
+.offer_location {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.offer_salary {
+    margin-right: 62px;
+    font-weight: 700;
+}
+
+.offer_details {
+    font-size: 14px;
+    line-height: 17px;
+    color: #1a75e8;
+    margin-left: auto;
+}
+
+.more_vacancy {
+    margin-top: 20px;
+}
+
+
+/* __section subscribe__ */
+
+.subscribe {
+    background: #F2F3F6
+}
+
+.subscribe_form {
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe_title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0 0 20px 0;
+}
+
+.subscribe_subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 0 40px 0;
+}
+
+
+/* __footer__ */
+
+.footer {
+    padding: 70px 0 100px 0;
+}
+
+.footer_logo_link {
+    margin: 0 0 20px 0;
+}
+
+.footer_description,
+.footer_copyright {
+    color: #B2B2B2;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+}
+
+.footer_contacts,
+.footer_info,
+.footer_nav {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 15px 0;
+}
+
+.footer_phone,
+.footer_data,
+.footer_confidentiality,
+.footer_vacancy,
+.footer_companies {
+    margin: 0 0 10px 0;
 }
